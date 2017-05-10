@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sandwich Maker</title>
+</head>
+
+<body>
+
+	<h1 style="text-align:center;text-shadow:2px 1px black;">Water Trash Sandwich Maker</h1>
+		<div class="main-form">
+				<article style="text-align:center;">
+					<section>
+					<h5>Select meat:</h5>
+					<select id="meat" multiple>
+						<option value="" selected disabled>Please Choose Meat</option>
+						<option value="none">None</option>
+						<option value="turkey">Turkey</option>
+						<option value="chicken">Chicken</option>
+						<option value="bacon">Bacon</option>
+					</select>
+					</section>
+
+					<h5>Select bread:</h5>
+					<section>
+					<select id="bread" multiple>
+						<option value="" selected disabled>Please Choose Bread</option>
+						<option value="none">None</option>
+						<option value="white">White</option>
+						<option value="wheat">Wheat</option>
+						<option value="rye">Rye</option>
+						<option value="pumpernickel">Pumpernickel</option>
+					</select>
+					</section>
+
+					<h5>Select cheese:</h5>
+					<section>
+					<select id="cheese" multiple>
+						<option value="" selected disabled>Please Choose Cheese</option>
+						<option value="none">None</option>
+						<option value="provolone">Provolone</option>
+						<option value="cheddar">Cheddar</option>
+						<option value="swiss">Swiss</option>
+						<option value="jack">Jack</option>
+					</select>
+					</section>
+
+					<h5>Select condiments:</h5>
+					<section>
+					<select id="condiments" multiple>
+						<option value="" selected disabled>Please Choose Condiments</option>
+						<option value="none">none</option>
+						<option value="BBQ">BBQ</option>
+						<option value="ranch">ranch</option>
+					</select>
+					</section>
+
+					<h5>Select veggies:</h5>
+					<section>
+					<select style="margin-bottom:20px;" id="veggies" multiple>
+						<option value="" selected disabled>Please Choose Veggies</option>
+						<option value="none">None</option>
+						<option value="lettuce">Lettuce</option>
+						<option value="cucumbers">Cucumbers</option>
+					</select>
+					</section>
+				<button id="button">Show Sandwich Price</button>
+				</article>
+				<h4 style="text-align:center;">Cost of your dumb sandwich:</h4>
+				<p style="text-align:center;" id="finalprice"></p>
+		</div>
+
+
+
+
+
+		<script type="text/javascript" src="javascripts/SandwichMaker.js"></script>
+		<script type="text/javascript" src="javascripts/DOMHandler.js"></script>
+		<script type="text/javascript" src="javascripts/cheese.js"></script>
+		<script type="text/javascript" src="javascripts/bread.js"></script>
+		<script type="text/javascript" src="javascripts/meat.js"></script>
+		<script type="text/javascript" src="javascripts/condiments.js"></script>
+		<script type="text/javascript" src="javascripts/veggies.js"></script>
+</body>
+</html>
